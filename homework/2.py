@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time : 2019/10/22 10:37
+# @Author : Chen Shan
+# Function : Calculate the number of times the paper is folded in half
+
 paper_width = 0.00008
 mountain_width = 8848.13
 cnt = 0

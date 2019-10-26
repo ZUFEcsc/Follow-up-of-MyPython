@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time : 2019/10/22 10:37
+# @Author : Chen Shan
+# Function ：Judge triangle type
+
 a = int(input("请输入一个整数（三角形的边长a）:"))
 b = int(input("请输入一个整数（三角形的边长b）:"))
 c = int(input("请输入一个整数（三角形的边长c）:"))
