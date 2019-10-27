@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time : 2019/10/22 10:37
+# @Author : Chen Shan
+# Function : Read & write multidimensional matrix
+
 #   file_name:读入或写入的文件名称
 #   data_list:读入或写入的数据链表
 #   data_tpye:数据类型
