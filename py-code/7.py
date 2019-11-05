@@ -9,7 +9,7 @@ from pandas import Series,DataFrame
 
 import pandas as pd
 
-csv_file = "../data/7_exrates.csv"
+csv_file = "../py-data/7_exrates.csv"
 csv_data = pd.read_csv(csv_file,engine='python')
 csv_df = DataFrame(csv_data)
 
