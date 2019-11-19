@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/py-code/10.py" line="78" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2895bc20-b5d6-4f68-bd72-7d4107127574" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/py-data/Subject1K.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-data/Subject1V.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py-code/10.py" beforeDir="false" afterPath="$PROJECT_DIR$/py-code/10.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py-code/8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="352">
               <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
               <folding>
                 <element signature="e#181#207#0" expanded="true" />
@@ -37,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/py-code/10.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-145">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="266">
+              <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
               <folding>
                 <element signature="e#109#131#0" expanded="true" />
               </folding>
@@ -79,11 +82,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="603" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="846" />
     <option name="y" value="65" />
-    <option name="width" value="1298" />
-    <option name="height" value="899" />
+    <option name="width" value="1055" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -93,7 +96,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,6 +117,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,14 +223,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="483" y="52" width="1038" height="719" extended-state="1" />
+    <frame x="677" y="52" width="844" height="720" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12874252" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15965347" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42589438" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.11394558" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39863715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -287,7 +290,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/py-code/8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="352">
           <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
           <folding>
             <element signature="e#181#207#0" expanded="true" />
@@ -297,8 +300,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/py-code/10.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="266">
+          <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
           <folding>
             <element signature="e#109#131#0" expanded="true" />
           </folding>

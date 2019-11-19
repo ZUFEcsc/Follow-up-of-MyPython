@@ -7,8 +7,6 @@
 import scipy.io as sio
 import math
 import matplotlib.pyplot as plt
-import numpy as np
-
 raw_K=sio.loadmat('../py-data/10_Subject1K.mat')
 raw_V=sio.loadmat('../py-data/10_Subject1V.mat')
 
@@ -75,13 +73,15 @@ for ik in k:
 
 fig = plt.figure()
 ax1 = fig.add_subplot(2,1,1)
-ax1.plot(subkk,'go--')
-ax1.plot(subvv,'bo-')
+ax1.plot(subkk,'go--',label =  'Subject1K')
+ax1.plot(subvv,'bo--',label = 'Subject1V')
+ax1.legend(loc='best')
 ax2 = fig.add_subplot(2,1,2)
-ax2.plot(junk,'go--')
-ax2.plot(sk1,'--')
-ax2.plot(sk2,'--')
+ax2.plot(junk,'go--',label = 'MEAN')
+ax2.plot(sk1,'--',label = 'Mean + Variance')
+ax2.plot(sk2,'--',label = 'Mean - Variance')
+ax2.legend(loc='best')
 plt.show()
 
-print(k)
-print(v)
+# print(k)
+# print(v)
