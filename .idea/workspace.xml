@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/py-code/10.py" line="78" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2895bc20-b5d6-4f68-bd72-7d4107127574" name="Default Changelist" comment="" />
+    <list default="true" id="2895bc20-b5d6-4f68-bd72-7d4107127574" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py-code/10.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="1628">
               <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
               <folding>
                 <element signature="e#109#131#0" expanded="true" />
@@ -50,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/py-code/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="e#108#118#0" expanded="true" />
               </folding>
@@ -332,7 +334,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/py-code/10.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="1628">
           <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
           <folding>
             <element signature="e#109#131#0" expanded="true" />
@@ -343,7 +345,7 @@
     <entry file="file://$PROJECT_DIR$/py-code/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="e#108#118#0" expanded="true" />
           </folding>
