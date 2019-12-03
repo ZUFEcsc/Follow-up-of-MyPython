@@ -45,19 +45,11 @@ class myMainWindow(QMainWindow):
         # 清空画布
         self.initView()
 
-        '''
-        a="F:/ProgramData/我的python/python_programming/cat.jpg"
-        self.pixmap = QPixmap(a)
-        self.painter = QPainter(self.pixmap)
-        self.painter.setPen(self.pen)
-        self.imageLabel.setPixmap(self.pixmap)
-        '''
-
         # 菜单栏
         self.Menu = self.menuBar().addMenu("菜单")
 
         # 清空
-        self.ClearAction = QAction(QIcon("images/file-new.gif"), "清空", self)
+        self.ClearAction = QAction(QIcon("images/clear.png"), "清空", self)
         self.ClearAction.triggered.connect(self.initView)
         self.Menu.addAction(self.ClearAction)
 
@@ -67,18 +59,9 @@ class myMainWindow(QMainWindow):
         self.Menu.addAction(self.changeColor)
 
         # 调画笔粗细
-        self.changeWidth = QAction(QIcon("images/width.ico"), "宽度", self)
+        self.changeWidth = QAction(QIcon("images/width.png"), "宽度", self)
         self.changeWidth.triggered.connect(self.showWidthDialog)
         self.Menu.addAction(self.changeWidth)
-
-        '''
-        #右侧停靠窗口
-        logDockWidget = QDockWidget("Log", self)
-        logDockWidget.setAllowedAreas(Qt.LeftDockWidgetArea|Qt.RightDockWidgetArea)
-        self.listWidget = QListWidget()
-        logDockWidget.setWidget(self.listWidget)
-        self.addDockWidget(Qt.RightDockWidgetArea, logDockWidget)
-        '''
 
         # 各种动作
         self.fileOpenAction = QAction(QIcon("images/fileopen.png"), "&Open", self)
@@ -106,6 +89,40 @@ class myMainWindow(QMainWindow):
 
         widthToolbar = self.addToolBar("宽度")
         widthToolbar.addAction(self.changeWidth)
+
+        #悬停框
+        PenDockWidget = QDockWidget("Pen-set", self)
+        PenDockWidget.setAllowedAreas(Qt.RightDockWidgetArea | Qt.LeftDockWidgetArea)
+        widthLabel = QLabel("&Width:")
+        self.widthSpinBox = QSpinBox()
+        widthLabel.setBuddy(self.widthSpinBox)
+        self.widthSpinBox.setAlignment(Qt.AlignRight | Qt.AlignVCenter)
+        self.widthSpinBox.setRange(0, 24)
+        self.widthSpinBox.setValue(5)
+        self.beveledCheckBox = QCheckBox("&Beveled edges")
+        styleLabel = QLabel("&Style:")
+        self.styleComboBox = QComboBox()
+        styleLabel.setBuddy(self.styleComboBox)
+        self.styleComboBox.addItems(["Solid", "Dashed", "Dotted", "DashDotted", "DashDotDotted"])
+        self.colorButton = QPushButton("Pen-color")
+
+        self.penWidget = QWidget()
+        buttonLayout = QHBoxLayout()
+        buttonLayout.addStretch()
+        layout = QGridLayout()
+        layout.addWidget(widthLabel, 0, 0)
+        layout.addWidget(self.widthSpinBox, 0, 1)
+        layout.addWidget(self.beveledCheckBox, 0, 2)
+        layout.addWidget(styleLabel, 1, 0)
+        layout.addWidget(self.styleComboBox, 1, 1, 1, 2)
+        layout.addWidget(self.colorButton, 2, 0, 1, 3)
+        self.penWidget.setLayout(layout)
+        self.widthSpinBox.valueChanged.connect(self.updateWidthBySpan)
+        self.colorButton.clicked.connect(self.showColorDialog)
+        PenDockWidget.setMaximumSize(200,150)
+        PenDockWidget.setWidget(self.penWidget)
+
+        self.addDockWidget(Qt.RightDockWidgetArea, PenDockWidget)
 
         # 状态栏
         self.sizeLabel = QLabel()
@@ -137,7 +154,7 @@ class myMainWindow(QMainWindow):
 
         # 鼠标位置
         self.__lastPos = QPoint(0, 0)  # 上一次鼠标位置
-        self.__currentPos = QPoint(0, 0)  # 当前的鼠标位置
+        self.__currentPos = QPoint(110, 0)  # 当前的鼠标位置
 
         self.image = QImage()
 
@@ -156,14 +173,18 @@ class myMainWindow(QMainWindow):
 
     def mousePressEvent(self, event):
         # 鼠标按下时，获取鼠标的当前位置保存为上一次位置
-        self.__currentPos = event.pos()
+        curX = event.x()
+        curY = event.y() - 59
+        self.__currentPos = QPoint(curX, curY)
         self.__lastPos = self.__currentPos
 
     def mouseMoveEvent(self, event):
         # 鼠标移动时，更新当前位置，并在上一个位置和当前位置间画线
-        self.__currentPos = event.pos()
-        # self.painter = QPainter(self.pixmap)
-        # self.painter.setPen(self.pen)
+        curX = event.x()
+        curY = event.y() - 59
+
+        self.__currentPos = QPoint(curX, curY)
+        # self.__currentPos = event.pos()
         self.painter.drawLine(self.__lastPos, self.__currentPos)
         self.__lastPos = self.__currentPos
         self.imageLabel.setPixmap(self.pixmap)
@@ -177,6 +198,11 @@ class myMainWindow(QMainWindow):
     def updateWidth(self):
         print(self.width)
         self.pen.setWidth(self.width)
+        self.painter.setPen(self.pen)
+
+    def updateWidthBySpan(self):
+        print(self.widthSpinBox.value())
+        self.pen.setWidth(self.widthSpinBox.value())
         self.painter.setPen(self.pen)
 
     def showWidthDialog(self):
@@ -222,11 +248,8 @@ class myMainWindow(QMainWindow):
         except Exception e:  
             print(Exception,":",e)
             '''
-        print(444)
         self.painter.setPen(self.pen)
-        print(555)
         self.imageLabel.setPixmap(self.pixmap)
-        print(666)
 
     def loadFile(self, fname=None):
         if fname is None:
@@ -329,6 +352,6 @@ class myMainWindow(QMainWindow):
 
 app = QApplication(sys.argv)
 form = myMainWindow()
-form.setMinimumSize(400, 400)
+form.setMinimumSize(500, 500)
 form.show()
 app.exec_()
