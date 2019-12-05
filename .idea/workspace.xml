@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2895bc20-b5d6-4f68-bd72-7d4107127574" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/py-code/12/12-cjs.py" beforeDir="false" afterPath="$PROJECT_DIR$/py-code/12/12-cjs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/12/images/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py-code/12/12-cjs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py-code/12/12.py" beforeDir="false" afterPath="$PROJECT_DIR$/py-code/12/12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py-code/12/cat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py-code/12/cat2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py-code/12/cat3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py-code/12/images/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py-code/12/images/editinvert.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py-code/12/images/editmirror.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py-code/12/images/editmirrorhoriz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py-code/12/images/editmirrorvert.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py-code/12/images/editresize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py-code/12/images/editswap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py-code/12/images/editunmirror.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py-code/12/images/editzoom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py-code/12/images/fileprint.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py-code/12/images/filequit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py-code/12/images/home.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py-example/ImageEditor/ImageEditor.pyw">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="215" selection-start-line="215" selection-end-line="215" />
+            <state relative-caret-position="229">
+              <caret line="203" column="68" lean-forward="true" selection-start-line="203" selection-start-column="68" selection-end-line="203" selection-end-column="68" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -31,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py-example/color-1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="83" column="34" lean-forward="true" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+            <state relative-caret-position="1408">
+              <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
               <folding>
                 <element signature="e#106#116#0" expanded="true" />
               </folding>
@@ -43,34 +58,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py-code/11.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="839">
-              <caret line="52" column="39" lean-forward="true" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+            <state relative-caret-position="509">
+              <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py-example/test.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/py-code/12/12-cjs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="178" column="25" selection-start-line="173" selection-start-column="4" selection-end-line="189" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py-code/12/12.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="67" selection-end-column="65" />
-              <folding>
-                <element signature="e#107#116#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-4488">
+              <caret line="89" column="45" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -98,11 +96,11 @@
         <option value="$PROJECT_DIR$/py-code/11.pyw" />
         <option value="$PROJECT_DIR$/py-code/11.py" />
         <option value="$PROJECT_DIR$/py-example/color-1.py" />
-        <option value="$PROJECT_DIR$/py-code/12/12.py" />
         <option value="$PROJECT_DIR$/py-code/12-cjs.py" />
         <option value="$PROJECT_DIR$/py-code/wzpf/temp.py" />
         <option value="$PROJECT_DIR$/py-example/ImageEditor/ImageEditor.pyw" />
         <option value="$PROJECT_DIR$/py-code/12/12-cjs.py" />
+        <option value="$PROJECT_DIR$/py-code/12/12.py" />
       </list>
     </option>
   </component>
@@ -118,10 +116,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="556" />
+    <option name="x" value="555" />
     <option name="y" value="115" />
     <option name="width" value="1295" />
-    <option name="height" value="918" />
+    <option name="height" value="919" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -131,7 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,10 +157,17 @@
               <item name="Follow-up-of-MyPython" type="462c0819:PsiDirectoryNode" />
               <item name="py-example" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Follow-up-of-MyPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Follow-up-of-MyPython" type="462c0819:PsiDirectoryNode" />
+              <item name="py-example" type="462c0819:PsiDirectoryNode" />
+              <item name="ImageEditor" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.12-cjs (1)">
+  <component name="RunManager" selected="Python.12">
     <configuration name="12-cjs (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Follow-up-of-MyPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -247,7 +251,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="color-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ImageEditor.pyw" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Follow-up-of-MyPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,11 +259,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py-example" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py-example/ImageEditor" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py-example/color-1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py-example/ImageEditor/ImageEditor.pyw" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,11 +295,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.12-cjs (1)" />
         <item itemvalue="Python.12" />
+        <item itemvalue="Python.ImageEditor.pyw" />
+        <item itemvalue="Python.12-cjs (1)" />
         <item itemvalue="Python.temp" />
         <item itemvalue="Python.12-cjs" />
-        <item itemvalue="Python.color-1" />
       </list>
     </recent_temporary>
   </component>
@@ -313,14 +317,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="445" y="92" width="1036" height="734" extended-state="0" />
+    <frame x="444" y="92" width="1036" height="735" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49935815" weight="0.29900333" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49935815" weight="0.29850745" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39863715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -398,43 +402,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py-code/11.pyw">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <element signature="e#108#118#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py-code/currency.pyw">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py-code/set_pen.pyw">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py-code/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/py-code/11.pyw" />
+    <entry file="file://$PROJECT_DIR$/py-code/currency.pyw" />
+    <entry file="file://$PROJECT_DIR$/py-code/set_pen.pyw" />
+    <entry file="file://$PROJECT_DIR$/py-code/test.py" />
     <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-313451744/PyQt5/QtWidgets/QColorDialog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
@@ -449,30 +420,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py-code/12-cjs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-233">
-          <caret line="223" column="11" lean-forward="true" selection-start-line="223" selection-start-column="11" selection-end-line="223" selection-end-column="11" />
-          <folding>
-            <element signature="e#106#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/py-code/12-cjs.py" />
     <entry file="file://$PROJECT_DIR$/py-code/wzpf/temp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py-example/color-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="83" column="34" lean-forward="true" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
-          <folding>
-            <element signature="e#106#116#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -483,36 +435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py-example/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py-example/ImageEditor/ImageEditor.pyw">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="215" selection-start-line="215" selection-end-line="215" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py-code/11.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="839">
-          <caret line="52" column="39" lean-forward="true" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py-code/12/12.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="67" selection-end-column="65" />
-          <folding>
-            <element signature="e#107#116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-313451744/PyQt5/QtWidgets/QMainWindow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
@@ -520,10 +442,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/py-example/color-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1408">
+          <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+          <folding>
+            <element signature="e#106#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/py-code/12/12-cjs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="178" column="25" selection-start-line="173" selection-start-column="4" selection-end-line="189" selection-end-column="46" />
+        <state relative-caret-position="308">
+          <caret line="184" lean-forward="true" selection-start-line="184" selection-end-line="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-example/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-code/11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-example/ImageEditor/ImageEditor.pyw">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="203" column="68" lean-forward="true" selection-start-line="203" selection-start-column="68" selection-end-line="203" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-code/12/12.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4488">
+          <caret line="89" column="45" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
         </state>
       </provider>
     </entry>

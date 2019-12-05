@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Time : 2019/12/3 10:59
+# @Time : 2019/12/3 14:22
 # @Author : ChenShan
 # Function :
-
 import os
 import platform
 import sys
@@ -11,37 +10,95 @@ from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 
+# 调画笔宽度的对话框
+class PenWidthDlg(QDialog):
+    def __init__(self, parent=None):
+        super(PenWidthDlg, self).__init__(parent)
+
+        widthLabel = QLabel("Width:")
+        self.widthSpinBox = QSpinBox()
+        widthLabel.setBuddy(self.widthSpinBox)
+        self.widthSpinBox.setAlignment(Qt.AlignRight | Qt.AlignVCenter)
+        self.widthSpinBox.setRange(0, 50)
+
+        okButton = QPushButton("ok")
+        cancelButton = QPushButton("cancle")
+
+        layout = QGridLayout()
+        layout.addWidget(widthLabel, 0, 0)
+        layout.addWidget(self.widthSpinBox, 0, 1)
+        layout.addWidget(okButton, 1, 0)
+        layout.addWidget(cancelButton, 1, 1)
+        self.setLayout(layout)
+        self.setWindowTitle("Set-width")
+
+        okButton.clicked.connect(self.accept)
+        cancelButton.clicked.connect(self.reject)
+
+
 class myMainWindow(QMainWindow):
     def __init__(self, parent=None):
         super().__init__(parent)
-        self.image = QImage()
-        self.dirty = False
-        self.filename = None
-        self.mirroredvertically = False
-        self.mirroredhorizontally = False
 
-        # 图像
-        self.pix = QPixmap()
-        self.lastPoint = QPoint()
-        self.endPoint = QPoint()
-        # self.imageLabel.setAlignment(Qt.AlignCenter)
-        # self.imageLabel.setContextMenuPolicy(Qt.ActionsContextMenu)
-        self.setCentralWidget(self.pix)
+        # 初始化参数
+        self.initData()
+        # 清空画布
+        self.initView()
 
-        # 右侧停靠窗口
-        logDockWidget = QDockWidget("Log", self)
-        logDockWidget.setAllowedAreas(Qt.LeftDockWidgetArea | Qt.RightDockWidgetArea)
+        # 菜单栏
+        self.Menu = self.menuBar().addMenu("MENU")
+
+        # 清空
+        self.ClearAction = QAction(QIcon("images/clear.png"), "clear", self)
+        self.ClearAction.triggered.connect(self.initView)
+        self.Menu.addAction(self.ClearAction)
+
+        # 调画笔颜色
+        self.changeColor = QAction(QIcon("images/color.png"), "color", self)
+        self.changeColor.triggered.connect(self.showColorDialog)
+        self.Menu.addAction(self.changeColor)
+
+        # 调画笔粗细
+        self.changeWidth = QAction(QIcon("images/width.png"), "width", self)
+        self.changeWidth.triggered.connect(self.showWidthDialog)
+        self.Menu.addAction(self.changeWidth)
+
+        # 各种动作
+        self.fileOpenAction = QAction(QIcon("images/fileopen.png"), "&Open", self)
+        self.fileOpenAction.setShortcut(QKeySequence.Open)
+        self.fileOpenAction.setToolTip("Open an image.")
+        self.fileOpenAction.setStatusTip("Open an image.")
+        self.fileOpenAction.triggered.connect(self.fileOpen)
+
+        self.fileSaveAction = QAction(QIcon("images/filesave.png"), "&Save", self)
+        self.fileSaveAction.setShortcut(QKeySequence.Save)
+        self.fileSaveAction.setToolTip("Save an image.")
+        self.fileSaveAction.setStatusTip("Save an image.")
+        self.fileSaveAction.triggered.connect(self.fileSaveAs)
+
+        # 工具栏
+        fileToolbar = self.addToolBar("File")
+        fileToolbar.addAction(self.fileOpenAction)
+        fileToolbar.addAction(self.fileSaveAction)
+
+        editToolbar = self.addToolBar("Clear")
+        editToolbar.addAction(self.ClearAction)
+
+        colorToolbar = self.addToolBar("Color")
+        colorToolbar.addAction(self.changeColor)
+
+        widthToolbar = self.addToolBar("Width")
+        widthToolbar.addAction(self.changeWidth)
+
+        #悬停框
         PenDockWidget = QDockWidget("Pen-set", self)
-        PenDockWidget.setAllowedAreas(Qt.RightDockWidgetArea)
-
-        self.listWidget = QListWidget()
-        logDockWidget.setWidget(self.listWidget)
-
+        PenDockWidget.setAllowedAreas(Qt.RightDockWidgetArea | Qt.LeftDockWidgetArea)
         widthLabel = QLabel("&Width:")
         self.widthSpinBox = QSpinBox()
         widthLabel.setBuddy(self.widthSpinBox)
         self.widthSpinBox.setAlignment(Qt.AlignRight | Qt.AlignVCenter)
         self.widthSpinBox.setRange(0, 24)
+        self.widthSpinBox.setValue(5)
         self.beveledCheckBox = QCheckBox("&Beveled edges")
         styleLabel = QLabel("&Style:")
         self.styleComboBox = QComboBox()
@@ -60,13 +117,12 @@ class myMainWindow(QMainWindow):
         layout.addWidget(self.styleComboBox, 1, 1, 1, 2)
         layout.addWidget(self.colorButton, 2, 0, 1, 3)
         self.penWidget.setLayout(layout)
-
-        # self.colorButton.clicked.connect(self.funColor())
-
+        self.widthSpinBox.valueChanged.connect(self.updateWidthBySpan)
+        self.colorButton.clicked.connect(self.showColorDialog)
+        PenDockWidget.setMaximumSize(200,150)
         PenDockWidget.setWidget(self.penWidget)
 
         self.addDockWidget(Qt.RightDockWidgetArea, PenDockWidget)
-        self.addDockWidget(Qt.RightDockWidgetArea, logDockWidget)
 
         # 状态栏
         self.sizeLabel = QLabel()
@@ -76,110 +132,85 @@ class myMainWindow(QMainWindow):
         status.addPermanentWidget(self.sizeLabel)
         status.showMessage("Ready", 5000)
 
-        # 各种动作
-        self.fileOpenAction = QAction(QIcon("images/fileopen.png"), "&Open", self)
-        self.fileOpenAction.setShortcut(QKeySequence.Open)
-        self.fileOpenAction.setToolTip("Open an image.")
-        self.fileOpenAction.setStatusTip("Open an image.")
-        self.fileOpenAction.triggered.connect(self.fileOpen)
+    def initData(self):
+        self.size = QSize(480, 460)
+        self.pixmap = QPixmap(self.size)
 
-        self.fileSaveAction = QAction(QIcon("images/filesave.png"), "&Save", self)
-        self.fileSaveAction.setShortcut(QKeySequence.Save)
-        self.fileSaveAction.setToolTip("Save an image.")
-        self.fileSaveAction.setStatusTip("Save an image.")
-        self.fileSaveAction.triggered.connect(self.fileSaveAs)
-
-        self.editUnMirrorAction = QAction(QIcon("images/editunmirror.png"), "&Unmirror", self)
-        self.editUnMirrorAction.setShortcut("Ctrl+U")
-        self.editUnMirrorAction.setToolTip("Unmirror the image")
-        self.editUnMirrorAction.setStatusTip("Unmirror the image")
-        self.editUnMirrorAction.setCheckable(True)
-        self.editUnMirrorAction.setChecked(True)
-        self.editUnMirrorAction.toggled.connect(self.editUnMirror)
-
-        editMirrorHorizontalAction = QAction(QIcon("images/editmirrorhoriz.png"), "Mirror &Horizontally", self)
-        editMirrorHorizontalAction.setShortcut("Ctrl+H")
-        editMirrorHorizontalAction.setToolTip("Horizontally mirror the image")
-        editMirrorHorizontalAction.setStatusTip("Horizontally mirror the image")
-        editMirrorHorizontalAction.setCheckable(True)
-        editMirrorHorizontalAction.toggled.connect(self.editMirrorHorizontal)
-
-        editMirrorVerticalAction = QAction(QIcon("images/editmirrorvert.png"), "Mirror &Vertically", self)
-        editMirrorVerticalAction.setShortcut("Ctrl+V")
-        editMirrorVerticalAction.setToolTip("Vertically mirror the image")
-        editMirrorVerticalAction.setStatusTip("Vertically mirror the image")
-        editMirrorVerticalAction.setCheckable(True)
-        editMirrorVerticalAction.toggled.connect(self.editMirrorVertical)
-
-        mirrorGroup = QActionGroup(self)
-        mirrorGroup.addAction(self.editUnMirrorAction)
-        mirrorGroup.addAction(editMirrorHorizontalAction)
-        mirrorGroup.addAction(editMirrorVerticalAction)
-
-        # 菜单栏
-        self.fileMenu = self.menuBar().addMenu("&File")
-        self.fileMenu.addAction(self.fileOpenAction)
-        self.fileMenu.addAction(self.fileSaveAction)
-
-        editMenu = self.menuBar().addMenu("&Edit")
-        editMenu.addAction(self.editUnMirrorAction)
-        editMenu.addAction(editMirrorHorizontalAction)
-        editMenu.addAction(editMirrorVerticalAction)
-
-        # 工具栏
-        fileToolbar = self.addToolBar("File")
-        fileToolbar.addAction(self.fileOpenAction)
-        fileToolbar.addAction(self.fileSaveAction)
-
-        editToolbar = self.addToolBar("Edit")
-        editToolbar.addAction(self.editUnMirrorAction)
-        editToolbar.addAction(editMirrorHorizontalAction)
-        editToolbar.addAction(editMirrorVerticalAction)
-
+        self.dirty = False
+        self.filename = None
         self.recentFiles = []
-        self.setWindowTitle("Image Changer")
-    def  funColor(self):
-        col = QColorDialog.getColor()
 
-    # 重绘的复写函数 主要在这里绘制
-    def paintEvent(self, event):
-        pp = QPainter(self.pix)
+        # 新建画笔
+        self.width = 5
+        self.color = QColor(0, 0, 0)
+        self.pen = QPen()  # 实例化画笔对象
+        self.pen.setColor(self.color)  # 设置画笔颜色
+        self.pen = QPen(Qt.SolidLine)  # 实例化画笔对象.参数：画笔样式
+        self.pen.setWidth(self.width)  # 设置画笔粗细
 
-        pen = QPen()  # 定义笔格式对象
-        pen.setWidth(10)  # 设置笔的宽度
-        pp.setPen(pen)  # 将笔格式赋值给 画笔
+        # 新建绘图工具
+        self.painter = QPainter(self.pixmap)
+        self.painter.setPen(self.pen)
 
-        # 根据鼠标指针前后两个位置绘制直线
-        pp.drawLine(self.lastPoint, self.endPoint)
-        # 让前一个坐标值等于后一个坐标值，
-        # 这样就能实现画出连续的线
-        self.lastPoint = self.endPoint
-        painter = QPainter(self)
-        painter.drawPixmap(0, 0, self.pix)  # 在画布上画出
+        # 鼠标位置
+        self.__lastPos = QPoint(0, 0)  # 上一次鼠标位置
+        self.__currentPos = QPoint(110, 0)  # 当前的鼠标位置
 
-    # 鼠标按压事件
+        self.image = QImage()
+
+    def initView(self):
+        # 设置界面的尺寸为__size
+        self.Clear()
+        self.imageLabel = QLabel()
+        self.imageLabel.setPixmap(self.pixmap)
+        self.setCentralWidget(self.imageLabel)
+
+    def Clear(self):
+        # 清空画板
+        self.pixmap.fill(Qt.white)
+        self.update()
+        self.dirty = False
+
     def mousePressEvent(self, event):
-        # 鼠标左键按下
-        if event.button() == Qt.LeftButton:
-            self.lastPoint = event.pos()
-            self.endPoint = self.lastPoint
+        # 鼠标按下时，获取鼠标的当前位置保存为上一次位置
+        curX = event.x()
+        curY = event.y() - 59
+        self.__currentPos = QPoint(curX, curY)
+        self.__lastPos = self.__currentPos
 
-    # 鼠标移动事件
     def mouseMoveEvent(self, event):
-        # 鼠标左键按下的同时移动鼠标
-        if event.buttons() and Qt.LeftButton:
-            self.endPoint = event.pos()
-            # 进行重新绘制
-            self.update()
+        # 鼠标移动时，更新当前位置，并在上一个位置和当前位置间画线
+        curX = event.x()
+        curY = event.y() - 59
 
-    # 鼠标释放事件
-    def mouseReleaseEvent(self, event):
-        # 鼠标左键释放
-        if event.button() == Qt.LeftButton:
-            self.endPoint = event.pos()
-            # 进行重新绘制
-            self.update()
+        self.__currentPos = QPoint(curX, curY)
+        # self.__currentPos = event.pos()
+        self.painter.drawLine(self.__lastPos, self.__currentPos)
+        self.__lastPos = self.__currentPos
+        self.imageLabel.setPixmap(self.pixmap)
 
+    # 调画笔颜色
+    def showColorDialog(self):
+        col = QColorDialog.getColor()
+        self.pen.setColor(col)
+        self.painter.setPen(self.pen)
+
+    def updateWidth(self):
+        print(self.width)
+        self.pen.setWidth(self.width)
+        self.painter.setPen(self.pen)
+
+    def updateWidthBySpan(self):
+        print(self.widthSpinBox.value())
+        self.pen.setWidth(self.widthSpinBox.value())
+        self.painter.setPen(self.pen)
+
+    def showWidthDialog(self):
+        dialog = PenWidthDlg(self)
+        dialog.widthSpinBox.setValue(self.width)
+        if dialog.exec_():
+            self.width = dialog.widthSpinBox.value()
+            self.updateWidth()
 
     def okToContinue(self):  # 警告当前图像未保存
         if self.dirty:
@@ -204,9 +235,21 @@ class myMainWindow(QMainWindow):
                                             "Image Changer - Choose Image", dir,
                                             "Image files ({})".format(" ".join(formats)))
         if fname:
-            print(fname[0])
             self.loadFile(fname[0])
-            self.updateFileMenu()
+            print(self.filename)
+            self.updatePainter()
+            print(type(self.filename))
+
+    def updatePainter(self):
+        print(self.pixmap)
+        '''
+        try:
+            self.painter = QPainter(self.pixmap)
+        except Exception e:  
+            print(Exception,":",e)
+            '''
+        self.painter.setPen(self.pen)
+        self.imageLabel.setPixmap(self.pixmap)
 
     def loadFile(self, fname=None):
         if fname is None:
@@ -225,27 +268,23 @@ class myMainWindow(QMainWindow):
             else:
                 self.addRecentFile(fname)
                 self.image = QImage()
-                self.editUnMirrorAction.setChecked(True)
                 self.image = image
                 self.filename = fname
                 self.showImage()
                 self.dirty = False
-                self.sizeLabel.setText("{} x {}".format(
-                    image.width(), image.height()))
                 message = "Loaded {}".format(os.path.basename(fname))
-            self.updateStatus(message)
+                self.updateStatus(message)
 
     def updateStatus(self, message):
         self.statusBar().showMessage(message, 5000)
-        self.listWidget.addItem(message)
         if self.filename:
             self.setWindowTitle("Image Changer - {}[*]".format(
                 os.path.basename(self.filename)))
+            print(8)
         elif not self.image.isNull():
             self.setWindowTitle("Image Changer - Unnamed[*]")
         else:
             self.setWindowTitle("Image Changer[*]")
-        self.setWindowModified(self.dirty)
 
     def updateFileMenu(self):
         self.fileMenu.clear()
@@ -275,7 +314,7 @@ class myMainWindow(QMainWindow):
                 self.recentFiles = [fname] + self.recentFiles
             else:
                 self.recentFiles = [fname] + self.recentFiles[:8]
-            print(len(self.recentFiles))
+                print(len(self.recentFiles))
 
     def fileSaveAs(self):
         if self.image.isNull():
@@ -304,42 +343,15 @@ class myMainWindow(QMainWindow):
                 return False
         return False
 
-    def editUnMirror(self, on):
-        if self.image.isNull():
-            return
-        if self.mirroredhorizontally:
-            self.editMirrorHorizontal(False)
-        if self.mirroredvertically:
-            self.editMirrorVertical(False)
-
-    def editMirrorHorizontal(self, on):
-        if self.image.isNull():
-            return
-        self.image = self.image.mirrored(True, False)
-        self.showImage()
-        self.mirroredhorizontally = not self.mirroredhorizontally
-        self.dirty = True
-        self.updateStatus(("Mirrored Horizontally"
-                           if on else "Unmirrored Horizontally"))
-
-    def editMirrorVertical(self, on):
-        if self.image.isNull():
-            return
-        self.image = self.image.mirrored(False, True)
-        self.showImage()
-        self.mirroredvertically = not self.mirroredvertically
-        self.dirty = True
-        self.updateStatus(("Mirrored Vertically"
-                           if on else "Unmirrored Vertically"))
-
     def showImage(self, percent=None):
         if self.image.isNull():
             return
-        self.imageLabel.setPixmap(QPixmap.fromImage(self.image))
+        self.pixmap = QPixmap.fromImage(self.image)
+        self.imageLabel.setPixmap(self.pixmap)
 
 
 app = QApplication(sys.argv)
 form = myMainWindow()
-form.setMinimumSize(1000, 1000)
+form.setMinimumSize(500, 500)
 form.show()
 app.exec_()
