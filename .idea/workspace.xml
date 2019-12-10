@@ -2,345 +2,11 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/py-code/10.py" line="78" />
+    <bookmark url="file://$PROJECT_DIR$/py-code/13/13.py" line="107" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2895bc20-b5d6-4f68-bd72-7d4107127574" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/py-code/12_陈彬捷.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/上官婉儿 - 修竹墨客.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/上官婉儿 - 惊鸿之笔.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/不知火舞 - 明媚烈焰.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/东皇太一 - 东海龙王.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/东皇太一 - 噬灭日蚀.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/东皇太一 - 逐梦之光.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/云中君 - 荷鲁斯之眼.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/亚瑟 - 圣骑之力.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/亚瑟 - 心灵战警.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/亚瑟 - 死亡骑士.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/亚瑟 - 狮心王.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/伽罗 - 破魔之箭.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/伽罗 - 花见巫女.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/元歌 - 午夜歌剧院.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/元歌 - 无间傀儡.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/公孙离 - 幻舞玲珑.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/公孙离 - 花间舞.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/公孙离 - 蜜橘之夏.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/兰陵王 - 暗影刀锋.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/兰陵王 - 暗隐猎兽者.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/兰陵王 - 隐刃.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/关羽 - 一骑当千.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/关羽 - 冰锋战神.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/关羽 - 天启骑士.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/关羽 - 龙腾万里.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/典韦 - 狂战士.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/典韦 - 穷奇.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/典韦 - 黄金武士.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/刘备 - 万事如意.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/刘备 - 仁德义枪.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/刘备 - 汉昭烈帝.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/刘备 - 纽约教父.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/刘禅 - 天才门将.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/刘禅 - 暴走机关.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/刘禅 - 绅士熊喵.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/刘禅 - 英喵野望.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/刘邦 - 双面君主.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/刘邦 - 圣殿之光.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/刘邦 - 德古拉伯爵.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/司马懿 - 寂灭之心.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/司马懿 - 魇语军师.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/后羿 - 半神之弓.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/后羿 - 精灵王.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/后羿 - 辉光之辰.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/后羿 - 阿尔法小队.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/后羿 - 黄金射手座.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/吕布 - 圣诞狂欢.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/吕布 - 天魔缭乱.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/吕布 - 无双之魔.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/吕布 - 末日机甲.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/吕布 - 猎兽之王.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/周瑜 - 海军大将.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/周瑜 - 真爱至上.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/周瑜 - 铁血都督.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/哪吒 - 三太子.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/哪吒 - 桀骜炎枪.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/哪吒 - 逐梦之翼.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/墨子 - 和平守望.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/墨子 - 进击墨子号.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/墨子 - 金属风暴.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/墨子 - 龙骑士.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/夏侯惇 - 不羁之风.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/夏侯惇 - 乘风破浪.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/夏侯惇 - 战争骑士.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/夏侯惇 - 无限飓风号.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/大乔 - 伊势巫女.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/大乔 - 守护之力.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/大乔 - 沧海之曜.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/大乔 - 猫狗日记.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/太乙真人 - 华丽摇滚.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/太乙真人 - 圆桌骑士.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/太乙真人 - 炼金大师.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/太乙真人 - 饕餮.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/女娲 - 尼罗河女神.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/女娲 - 至高创世.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/妲己 - 仙境爱丽丝.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/妲己 - 女仆咖啡.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/妲己 - 少女阿狸.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/妲己 - 热情桑巴.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/妲己 - 魅力维加斯.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/妲己 - 魅惑之狐.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/姜子牙 - 太古魔导.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/姜子牙 - 时尚教父.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/娜可露露 - 鹰之守护.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/嫦娥 - 寒月公主.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/嫦娥 - 露花倒影.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/嬴政 - 优雅恋人.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/嬴政 - 摇滚巨星.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/嬴政 - 暗夜贵公子.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/嬴政 - 王者独尊.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/嬴政 - 白昼王子.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/孙尚香 - 千金重弩.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/孙尚香 - 末日机甲.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/孙尚香 - 杀手不太冷.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/孙尚香 - 水果甜心.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/孙尚香 - 沉稳之力.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/孙尚香 - 火炮千金.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/孙尚香 - 蔷薇恋人.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/孙悟空 - 全息碎影.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/孙悟空 - 地狱火.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/孙悟空 - 大圣娶亲.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/孙悟空 - 美猴王.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/孙悟空 - 至尊宝.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/孙悟空 - 西部大镖客.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/孙悟空 - 齐天大圣.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/孙策 - 光明之海.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/孙策 - 海之征途.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/孙策 - 猫狗日记.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/孙膑 - 天使之翼.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/孙膑 - 妖精王.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/孙膑 - 未来旅行.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/孙膑 - 逆流之时.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/安琪拉 - 如懿.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/安琪拉 - 心灵骇客.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/安琪拉 - 暗夜萝莉.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/安琪拉 - 玩偶对对碰.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/安琪拉 - 魔法小厨娘.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/宫本武藏 - 万象初新.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/宫本武藏 - 剑圣.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/宫本武藏 - 地狱之眼.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/宫本武藏 - 未来纪元.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/宫本武藏 - 霸王丸.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/宫本武藏 - 鬼剑武藏.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/小乔 - 万圣前夜.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/小乔 - 天鹅之梦.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/小乔 - 恋之微风.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/小乔 - 纯白花嫁.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/小乔 - 缤纷独角兽.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/干将莫邪 - 冰霜恋舞曲.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/干将莫邪 - 淬命双剑.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/干将莫邪 - 第七人偶.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/庄周 - 云端筑梦师.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/庄周 - 蜃楼王.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/庄周 - 逍遥幻梦.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/庄周 - 鲤鱼之梦.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/廉颇 - 地狱岩魂.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/廉颇 - 正义爆轰.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/弈星 - 天元之弈.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/弈星 - 踏雪寻梅.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/张良 - 一千零一夜.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/张良 - 天堂福音.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/张良 - 幽兰居士.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/张良 - 言灵之书.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/张飞 - 乱世虎臣.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/张飞 - 五福同心.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/张飞 - 禁血狂兽.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/成吉思汗 - 维京掠夺者.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/成吉思汗 - 苍狼末裔.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/扁鹊 - 化身博士.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/扁鹊 - 善恶怪医.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/扁鹊 - 救世之瞳.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/扁鹊 - 炼金王.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/明世隐 - 占星术士.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/明世隐 - 灵魂劫卜.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/明世隐 - 虹云星官.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/曜 - 归虚梦演.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/曹操 - 幽灵船长.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/曹操 - 死神来了.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/曹操 - 烛龙.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/曹操 - 超能战警.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/曹操 - 鲜血枭雄.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/李信 - 灼热之刃.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/李信 - 谋世之战.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/李元芳 - 特种部队.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/李元芳 - 王都密探.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/李元芳 - 逐浪之夏.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/李元芳 - 黑猫爱糖果.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/李白 - 凤求凰.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/李白 - 千年之狐.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/李白 - 敏锐之力.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/李白 - 范海辛.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/李白 - 青莲剑仙.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/杨戬 - 埃及法老.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/杨戬 - 根源之目.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/杨戬 - 永曜之星.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/杨玉环 - 遇见飞天.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/杨玉环 - 霓裳曲.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/杨玉环 - 风华霓裳.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/梦奇 - 入梦之灵.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/梦奇 - 美梦成真.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/梦奇 - 胖达荣荣.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/橘右京 - 神梦一刀.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/武则天 - 东方不败.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/武则天 - 女帝.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/武则天 - 海洋之心.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/沈梦溪 - 棒球奇才.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/沈梦溪 - 爆弹怪猫.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/牛魔 - 制霸全明星.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/牛魔 - 精英酋长.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/牛魔 - 西部大镖客.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/狂铁 - 命运角斗场.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/狂铁 - 御狮.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/狂铁 - 战车意志.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/狄仁杰 - 断案大师.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/狄仁杰 - 超时空战士.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/狄仁杰 - 锦衣卫.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/狄仁杰 - 阴阳师.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/狄仁杰 - 魔术师.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/猪八戒 - 年年有余.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/猪八戒 - 无忧猛士.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/王昭君 - 偶像歌手.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/王昭君 - 冰雪之华.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/王昭君 - 凤凰于飞.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/王昭君 - 幻想奇妙夜.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/王昭君 - 精灵公主.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/瑶 - 森.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/甄姬 - 冰雪圆舞曲.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/甄姬 - 洛神降临.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/甄姬 - 游园惊梦.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/甄姬 - 花好人间.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/白起 - 星夜王子.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/白起 - 最终兵器.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/白起 - 狰.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/白起 - 白色死神.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/百里守约 - 朱雀志.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/百里守约 - 特工魅影.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/百里守约 - 绝影神枪.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/百里守约 - 静谧之眼.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/百里玄策 - 嚣狂之镰.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/百里玄策 - 威尼斯狂欢.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/百里玄策 - 白虎志.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/盘古 - 破晓之神.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/盾山 - 无尽之盾.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/盾山 - 极冰防御线.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/程咬金 - 功夫厨神.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/程咬金 - 华尔街大亨.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/程咬金 - 星际陆战队.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/程咬金 - 热烈之斧.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/程咬金 - 爱与正义.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/米莱狄 - 御霄.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/米莱狄 - 筑城者.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/米莱狄 - 精准探案法.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/老夫子 - 万古长明.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/老夫子 - 功夫老勺.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/老夫子 - 圣诞老人.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/老夫子 - 潮流仙人.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/芈月 - 大秦宣太后.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/芈月 - 永恒之月.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/芈月 - 红桃皇后.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/芈月 - 重明.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/花木兰 - 传说之刃.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/花木兰 - 兔女郎.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/花木兰 - 冠军飞将.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/花木兰 - 剑舞者.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/花木兰 - 水晶猎龙者.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/花木兰 - 瑞麟志.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/花木兰 - 青春决赛季.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/苏烈 - 不屈铁壁.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/苏烈 - 坚韧之力.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/苏烈 - 爱与和平.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/苏烈 - 玄武志.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/蔡文姬 - 天籁弦音.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/蔡文姬 - 奇迹圣诞.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/蔡文姬 - 舞动绿茵.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/蔡文姬 - 蔷薇王座.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/虞姬 - 凯尔特女王.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/虞姬 - 加勒比小姐.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/虞姬 - 森之风灵.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/虞姬 - 霸王别姬.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/裴擒虎 - 六合虎拳.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/裴擒虎 - 梅西.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/裴擒虎 - 街头霸王.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/诸葛亮 - 掌控之力.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/诸葛亮 - 星航指挥官.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/诸葛亮 - 武陵仙君.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/诸葛亮 - 绝代智谋.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/诸葛亮 - 黄金分割率.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/貂蝉 - 仲夏夜之梦.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/貂蝉 - 圣诞恋歌.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/貂蝉 - 异域舞娘.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/貂蝉 - 绝世舞姬.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/貂蝉 - 逐梦之音.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/赵云 - 嘻哈天王.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/赵云 - 引擎之心.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/赵云 - 忍●炎影.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/赵云 - 未来纪元.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/赵云 - 白执事.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/赵云 - 皇家上将.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/赵云 - 苍天翔龙.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/达摩 - 大发明家.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/达摩 - 拳僧.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/达摩 - 拳王.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/钟无艳 - 海滩丽影.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/钟无艳 - 王者之锤.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/钟无艳 - 生化警戒.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/钟无艳 - 野蛮之锤.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/钟馗 - 地府判官.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/钟馗 - 虚灵城判.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/铠 - 曙光守护者.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/铠 - 破灭刃锋.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/铠 - 青龙志.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/铠 - 龙域领主.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/阿轲 - 信念之刃.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/阿轲 - 暗夜猫娘.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/阿轲 - 爱心护理.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/阿轲 - 致命风华.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/阿轲 - 节奏热浪.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/雅典娜 - 冰冠公主.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/雅典娜 - 圣域余晖.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/雅典娜 - 战争女神.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/雅典娜 - 神奇女侠.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/露娜 - 一生所爱.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/露娜 - 哥特玫瑰.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/露娜 - 月光之女.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/露娜 - 紫霞仙子.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/露娜 - 绯红之刃.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/韩信 - 国士无双.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/韩信 - 教廷特使.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/韩信 - 白龙吟.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/韩信 - 街头霸王.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/韩信 - 逐梦之影.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/项羽 - 帝国元帅.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/项羽 - 海滩派对.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/项羽 - 科学大爆炸.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/项羽 - 职棒王牌.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/项羽 - 苍穹之光.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/项羽 - 霸王.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/项羽 - 霸王别姬.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/马可波罗 - 激情绿茵.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/马可波罗 - 远游之枪.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/马可波罗 - 逐梦之星.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/高渐离 - 叛逆吟游.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/高渐离 - 死亡摇滚.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/高渐离 - 金属狂潮.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/鬼谷子 - 万物有灵.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/鬼谷子 - 幻乐之宴.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/鬼谷子 - 阿摩司公爵.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/鲁班七号 - 星空梦想.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/鲁班七号 - 木偶奇遇记.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/鲁班七号 - 机关造物.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/鲁班七号 - 电玩小子.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/鲁班七号 - 福禄兄弟.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/黄忠 - 燃魂重炮.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/pic/黄忠 - 芝加哥教父.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-code/wzpf/temp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py-example/color-1.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -353,7 +19,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py-example/ImageEditor/ImageEditor.pyw">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4356">
+            <state relative-caret-position="340">
               <caret line="203" column="68" selection-start-line="203" selection-start-column="68" selection-end-line="203" selection-end-column="68" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -363,12 +29,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py-example/color-1.py">
+        <entry file="file://$PROJECT_DIR$/py-code/13/13.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1408">
-              <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+            <state relative-caret-position="208">
+              <caret line="107" column="58" lean-forward="true" selection-start-line="107" selection-start-column="58" selection-end-line="107" selection-end-column="58" />
               <folding>
-                <element signature="e#106#116#0" expanded="true" />
+                <element signature="e#108#119#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -386,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/py-code/12/12.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+            <state relative-caret-position="263">
+              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
               <folding>
                 <element signature="e#106#115#0" expanded="true" />
               </folding>
@@ -423,6 +89,8 @@
         <option value="$PROJECT_DIR$/py-example/ImageEditor/ImageEditor.pyw" />
         <option value="$PROJECT_DIR$/py-code/12/12-cjs.py" />
         <option value="$PROJECT_DIR$/py-code/12/12.py" />
+        <option value="$PROJECT_DIR$/py-code/13/13.py" />
+        <option value="$PROJECT_DIR$/py-code/12/12-L.py" />
       </list>
     </option>
   </component>
@@ -437,11 +105,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="361" />
-    <option name="y" value="195" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="365" />
+    <option name="y" value="113" />
     <option name="width" value="1295" />
-    <option name="height" value="920" />
+    <option name="height" value="937" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -451,7 +119,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -490,6 +157,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -509,7 +177,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.12">
+  <component name="RunManager" selected="Python.12-L">
+    <configuration name="12-L" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Follow-up-of-MyPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py-code/12" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py-code/12/12-L.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="12-cjs (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Follow-up-of-MyPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -523,27 +212,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py-code/12/12-cjs.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="12-cjs" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Follow-up-of-MyPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py-code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py-code/12-cjs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -573,6 +241,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="13" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Follow-up-of-MyPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py-code/13" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py-code/13/13.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ImageEditor.pyw" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Follow-up-of-MyPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -594,34 +283,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="temp" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Follow-up-of-MyPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py-code/wzpf" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py-code/wzpf/temp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.12-L" />
+        <item itemvalue="Python.13" />
         <item itemvalue="Python.12" />
         <item itemvalue="Python.ImageEditor.pyw" />
         <item itemvalue="Python.12-cjs (1)" />
-        <item itemvalue="Python.temp" />
-        <item itemvalue="Python.12-cjs" />
       </list>
     </recent_temporary>
   </component>
@@ -639,14 +307,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="289" y="156" width="1036" height="736" extended-state="0" />
+    <frame x="292" y="91" width="1036" height="749" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49935815" weight="0.29801324" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49935815" visible="true" weight="0.29659644" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39863715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -761,26 +430,7 @@
     <entry file="file://$PROJECT_DIR$/py-example/test.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/py-example/ImageEditor/ImageEditor.pyw">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4356">
-          <caret line="203" column="68" selection-start-line="203" selection-start-column="68" selection-end-line="203" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py-example/color-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408">
-          <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
-          <folding>
-            <element signature="e#106#116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/py-code/wzpf/temp.py" />
     <entry file="file://$PROJECT_DIR$/py-code/11.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1078">
@@ -788,17 +438,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py-code/wzpf/temp.py">
+    <entry file="file://$PROJECT_DIR$/py-example/color-1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        <state relative-caret-position="340">
+          <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+          <folding>
+            <element signature="e#106#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-example/ImageEditor/ImageEditor.pyw">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="203" column="68" selection-start-line="203" selection-start-column="68" selection-end-line="203" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-code/13/13.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="107" column="58" lean-forward="true" selection-start-line="107" selection-start-column="58" selection-end-line="107" selection-end-column="58" />
+          <folding>
+            <element signature="e#108#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-code/12/12-L.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3806">
+          <caret line="173" column="39" selection-start-line="173" selection-start-column="39" selection-end-line="173" selection-end-column="39" />
+          <folding>
+            <element signature="e#108#117#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/py-code/12/12.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        <state relative-caret-position="263">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
           <folding>
             <element signature="e#106#115#0" expanded="true" />
           </folding>
