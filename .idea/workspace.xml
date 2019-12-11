@@ -5,9 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/py-code/13/13.py" line="107" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2895bc20-b5d6-4f68-bd72-7d4107127574" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/py-example/color-1.py" beforeDir="false" />
-    </list>
+    <list default="true" id="2895bc20-b5d6-4f68-bd72-7d4107127574" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="365" />
     <option name="y" value="113" />
     <option name="width" value="1295" />
@@ -307,15 +305,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="292" y="91" width="1036" height="749" extended-state="1" />
-    <editor active="true" />
+    <frame x="292" y="91" width="1036" height="749" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49935815" visible="true" weight="0.29659644" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49935815" weight="0.29659644" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39863715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
