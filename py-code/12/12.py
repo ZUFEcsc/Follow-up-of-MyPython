@@ -238,6 +238,8 @@ class myMainWindow(QMainWindow):
             self.loadFile(fname[0])
             print(self.filename)
             self.updatePainter()
+            # self.painter.setPen(self.pen)
+            # self.updateFileMenu()
             print(type(self.filename))
 
     def updatePainter(self):
