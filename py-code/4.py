@@ -46,9 +46,9 @@ def f_read(file_name,output_list=[],n=2,data_type=1):
                             t1.append(float(temp))
                         elif data_type == 3:
                             t1.append(str(temp))
-                        temp=''
+                        temp = ''
                         continue
-                    temp+=num
+                    temp += num
                 if temp != '':
                     if data_type == 1:
                         t1.append(int(temp))
@@ -58,7 +58,7 @@ def f_read(file_name,output_list=[],n=2,data_type=1):
                         t1.append(str(temp))
                 if len(t1) != 0:
                     t2.append(t1)
-                    t1=[]
+                    t1 = []
                 else:
                     if len(t2) != 0:
                         output_list.append(t2)
@@ -78,41 +78,41 @@ def f_read(file_name,output_list=[],n=2,data_type=1):
     print(output_list)
 
 # =========== test on n=3 int =============
-int_3_list=[[[1,2,2,3],[2,3,3,4]],[[1,2,2,3],[2,3,3,4]],[[1,2,2,3],[2,3,3,4]]]
+int_3_list = [ [ [1,2,2,3] , [2,3,3,4] ],[ [1,2,2,3] , [2,3,3,4] ] , [ [1,2,2,3] , [2,3,3,4] ] ]
 f_write('int_3_test.txt',int_3_list,n=3)
-int_o_3_list=[]
+int_o_3_list = []
 f_read('int_3_test.txt',int_o_3_list,n=3)
 print('------------------------')
 
 # --- test on n=3 string ---
-str_3_list = [[['a','b','c'],['d','ef','g']],[['a','b','c'],['d','ef','g']]]
-str_o_3_list=[]
+str_3_list = [ [ ['a','b','c'] , ['d','ef','g'] ] , [ ['a','b','c'] , ['d','ef','g'] ] ]
+str_o_3_list = []
 f_write('str_3_test.txt',str_3_list,n=3,data_type=3)
 f_read('str_3_test.txt',str_o_3_list,n=3,data_type=3)
 # print(str_3_list)
 print('------------------------')
 
 # --- test on n=3 float ---
-float_3_list = [[[1.11,2.22,3.33],[1.34,2.45,3.56]],[[1.11,2.22,3.33],[1.34,2.45,3.56]]]
-float_o_3_list=[]
+float_3_list = [ [ [1.11,2.22,3.33] , [1.34,2.45,3.56] ] , [ [1.11,2.22,3.33] , [1.34,2.45,3.56] ] ]
+float_o_3_list = []
 f_write('float_3_test.txt',float_3_list,n=4,data_type=2)
 f_read('float_3_test.txt',float_o_3_list,n=4,data_type=2)
 # print(float_3_list)
 
 # # =========== test on int data_type =============
-# int_list = [[1,2,2,3],[2,3,3,4]]
-# int_o_list=[]
+# int_list = [ [1,2,2,3] , [2,3,3,4] ]
+# int_o_list = []
 # f_write('int_test.txt',int_list)
 # f_read('int_test.txt',int_o_list)
 #
 # # ========= test on float data_type =============
-# float_list = [[1.11,2.22,3.33],[1.34,2.45,3.56]]
-# float_o_list=[]
+# float_list = [ [1.11,2.22,3.33] , [1.34,2.45,3.56] ]
+# float_o_list = []
 # f_write('float_test.txt',float_list,data_type=2)
 # f_read('float_test.txt',float_o_list,data_type=2)
 #
 # # ========= test on string data_type ============
-# str_list = [['a','b','c'],['d','ef','g']]
-# str_o_list=[]
+# str_list = [ ['a','b','c'] , ['d','ef','g'] ]
+# str_o_list = []
 # f_write('str_test.txt',str_list,data_type=3)
 # f_read('str_test.txt',str_o_list,data_type=3)

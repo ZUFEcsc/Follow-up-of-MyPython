@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Time : 2019/12/10 11:29
-# @Author : ChenShan
-# Function :
+# @Author : Chen Shan
+# Function :GUI programming - ground mouse games
 
 import time
 import os

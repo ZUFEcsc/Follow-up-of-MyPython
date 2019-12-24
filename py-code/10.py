@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2019/11/12 11:05
 # @Author : Chen Shan
-# Function :
+# Function : Read mat 3D data & plot analysis
 
 import scipy.io as sio
 import math
