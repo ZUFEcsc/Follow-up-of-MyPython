@@ -242,44 +242,68 @@ class myMainWindow(QMainWindow):
         fname = QFileDialog.getOpenFileName(self,
                                             "Image Changer - Choose Image", dir,
                                             "Image files ({})".format(" ".join(formats)))
-
         if fname:
             print(fname[0])
             self.loadFile(fname[0])
-            print('okay')
-            # self.painter = QPainter(self.pixmap)
-            # self.painter.setPen(self.pen)
-            # self.updateFileMenu()
-            print(self.filename)
-            self.updatePainter()
-            print(type(self.filename))
+            self.updateFileMenu()
+
+        # if not self.okToContinue():
+        #     return
+        # dir = (os.path.dirname(self.filename)
+        #        if self.filename is not None else ".")
+        # formats = (["*.{}".format(format.data().decode("ascii").lower())
+        #             for format in QImageReader.supportedImageFormats()])
+        # fname = QFileDialog.getOpenFileName(self,
+        #                                     "Image Changer - Choose Image", dir,
+        #                                     "Image files ({})".format(" ".join(formats)))
+        #
+        # if fname:
+        #     print(fname[0])
+        #     self.loadFile(fname[0])
+        #     print('okay')
+        #     # self.painter = QPainter(self.pixmap)
+        #     # self.painter.setPen(self.pen)
+        #     # self.updateFileMenu()
+        #     print(self.filename)
+        #     self.updatePainter()
+        #     print(type(self.filename))
 
     def saveFile(self):
-        if self.image.isNull():
-            return True
-        fname = self.filename if self.filename is not None else "."
-        formats = (["*.{}".format(format.data().decode("ascii").lower())
-                    for format in QImageWriter.supportedImageFormats()])
-        fname = QFileDialog.getSaveFileName(self,
-                                               "Image Changer - Save Image", fname,
-                                               "Image files ({})".format(" ".join(formats)))
-        fname = fname[0]
-        if fname:
-            print(fname)
-            if "." not in fname:
-                fname += ".png"
-            self.addRecentFile(fname)
-            self.filename = fname
+        savePath = QFileDialog.getSaveFileName(self, 'Save Your Paint', '.\\', '*.png')
+        print(savePath)
+        if savePath[0] == "":
+            print("Save cancel")
+            return
+        image = self.pixmap
+        print("save...")
+        image.save(savePath[0])
+        self.updateStatus("Saved as {}".format(savePath))
 
-            if self.image.save(self.filename, None):
-                self.updateStatus("Saved as {}".format(self.filename))
-                self.dirty = False
-                return True
-            else:
-                self.updateStatus("Failed to save {}".format(
-                    self.filename))
-                return False
-        return False
+        # if self.image.isNull():
+        #     return True
+        # fname = self.filename if self.filename is not None else "."
+        # formats = (["*.{}".format(format.data().decode("ascii").lower())
+        #             for format in QImageWriter.supportedImageFormats()])
+        # fname = QFileDialog.getSaveFileName(self,
+        #                                        "Image Changer - Save Image", fname,
+        #                                        "Image files ({})".format(" ".join(formats)))
+        # fname = fname[0]
+        # if fname:
+        #     print(fname)
+        #     if "." not in fname:
+        #         fname += ".png"
+        #     self.addRecentFile(fname)
+        #     self.filename = fname
+        #
+        #     if self.image.save(self.filename, None):
+        #         self.updateStatus("Saved as {}".format(self.filename))
+        #         self.dirty = False
+        #         return True
+        #     else:
+        #         self.updateStatus("Failed to save {}".format(
+        #             self.filename))
+        #         return False
+        # return False
 
     def loadFile(self, fname=None):
         if fname is None:
