@@ -1,5 +1,6 @@
 # Follow-up-of-MyPython
 ldw老师的python 强推
+
 The length of Python course is 16 weeks, the teaching time is the first 14 weeks, and the last two weeks review and test
 
 1. Python introduction + variable assignment and number operation
